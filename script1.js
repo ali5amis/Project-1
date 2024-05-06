@@ -48,3 +48,6 @@ function clicksquare() {
     window.close()
   }
   
+  function playagain() {
+    location.reload()
+  }
