@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: cadetblue;
+}
+.scoredisplay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid;
+    margin: auto;
+    width: 500px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: rgb(51, 89, 122);
+    color: rgb(174, 201, 236);
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    margin: auto;
+    width: 700px;
+    gap: 1rem;
+    border: 2px solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: lightslategray;
+    text-align: center;
+}
+.card{
+    margin: auto;
+    border: 2px solid;
+    background-color: grey;
+    cursor: pointer;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+.front{
+    background-color: gray;
+    transform: rotateY(90deg);
+}
+.flip{
+    transform: rotateY(0deg);
+}
+.quit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+button{
+    font-size: 200%;
+    background-color: red;
+    color: white;
+    margin: 10px;
+}
+a{
+    color: white;
+    text-decoration: dashed;
+}
