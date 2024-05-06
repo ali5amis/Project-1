@@ -43,3 +43,8 @@ function clicksquare() {
       c.classList.add('flip')
     })
   }
+
+  function quitgame() {
+    window.close()
+  }
+  
