@@ -25,10 +25,12 @@ function clicktoshow() {
         score.textContent = scores
         if (scores >= 5) {
             txtscore.textContent = 'You are Won this game ^^'
+            flipAll()
           }
       } else if (frontid <= 2) {
         scores = 0
         txtscore.textContent = 'You are loser'
+        flipAll()
       }
     })
   }
