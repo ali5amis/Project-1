@@ -51,3 +51,5 @@ function clicksquare() {
   function playagain() {
     location.reload()
   }
+
+  exit.addEventListener('click', quitgame)
