@@ -24,6 +24,9 @@ function clicksquare() {
         if (frontid >= 5) {
             scores++
             score.textContent = scores
+            if (scores >= 8) {
+                txtscore.textContent = 'You are Won this game ^^'
+              }
           } else {
             scores = 0
             txtscore.textContent = 'You are loser'
