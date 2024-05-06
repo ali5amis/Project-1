@@ -40,3 +40,7 @@ const flipAll = () => {
     c.classList.add('flip')
   })
 }
+
+function quitgame() {
+    window.close()
+  }
