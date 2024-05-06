@@ -53,3 +53,4 @@ function clicksquare() {
   }
 
   exit.addEventListener('click', quitgame)
+  restartgame.addEventListener('click', playagain)
