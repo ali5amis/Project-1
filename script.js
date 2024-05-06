@@ -48,3 +48,5 @@ function quitgame() {
   function playagain() {
     location.reload()
   }
+
+exit.addEventListener('click', quitgame)
