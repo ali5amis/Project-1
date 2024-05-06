@@ -23,6 +23,9 @@ function clicktoshow() {
       if (frontid >= 3 && frontid <= 12) {
         scores++
         score.textContent = scores
+        if (scores >= 5) {
+            txtscore.textContent = 'You are Won this game ^^'
+          }
       } else if (frontid <= 2) {
         scores = 0
         txtscore.textContent = 'You are loser'
