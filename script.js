@@ -51,3 +51,6 @@ function quitgame() {
 
 exit.addEventListener('click', quitgame)
 restartgame.addEventListener('click', playagain)
+
+clicksquare()
+clicktoshow()
