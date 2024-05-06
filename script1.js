@@ -21,6 +21,13 @@ function clicksquare() {
       cards[i].addEventListener('click', () => {
         front[i].classList.add('flip')
         const frontid = parseInt(front[i].getAttribute('id'))
+        if (frontid >= 5) {
+            scores++
+            score.textContent = scores
+          } else {
+            scores = 0
+            txtscore.textContent = 'You are loser'
+          }    
       })
     }
   }
