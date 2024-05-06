@@ -35,3 +35,9 @@ function clicksquare() {
     }
   }
   
+  function flipAll() {
+    front.forEach((c) => {
+      console.log(`c = ${c}`)
+      c.classList.add('flip')
+    })
+  }
