@@ -44,3 +44,7 @@ const flipAll = () => {
 function quitgame() {
     window.close()
   }
+
+  function playagain() {
+    location.reload()
+  }
