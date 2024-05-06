@@ -14,3 +14,14 @@ function clicksquare() {
       card.style.order = everysquare[cardsrandom]
     })
   }
+
+  function clicktoshow() {
+    for (let i = 0; i < cards.length; i++) {
+      cards[i].addEventListener('click', () => {
+        console.log(`Click 23`)
+        front[i].classList.add('flip')
+        const frontid = parseInt(front[i].getAttribute('id'))
+      })
+    }
+  }
+  
