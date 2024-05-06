@@ -26,10 +26,12 @@ function clicksquare() {
             score.textContent = scores
             if (scores >= 8) {
                 txtscore.textContent = 'You are Won this game ^^'
+                flipAll()
               }
           } else {
             scores = 0
             txtscore.textContent = 'You are loser'
+            flipAll()
           }    
       })
     }
