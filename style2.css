@@ -1,63 +1,75 @@
-body{
-    margin: 0;
-    padding: 0;
-    background-color: cadetblue;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: cadetblue;
 }
-.scoredisplay{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border: 2px solid;
-    margin: auto;
-    width: 500px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    background-color: rgb(51, 89, 122);
-    color: rgb(135, 211, 211);
+.scoredisplay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid;
+  margin: auto;
+  width: 500px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  background-color: rgb(51, 89, 122);
+  color: rgb(135, 211, 211);
 }
-.cards{
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    margin: auto;
-    width: 700px;
-    gap: 1rem;
-    border: 2px solid;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: lightslategray;
-    text-align: center;
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  margin: auto;
+  width: 700px;
+  gap: 1rem;
+  border: 2px solid;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: lightslategray;
+  text-align: center;
 }
-.card{
-    margin: auto;
-    border: 2px solid;
-    background-color: grey;
-    cursor: pointer;
+.card {
+  margin: auto;
+  border: 2px solid;
+  background-color: grey;
+  cursor: pointer;
 }
-img{
-    height: 100px;
-    width: 100px;
+img {
+  height: 100px;
+  width: 100px;
 }
-.front{
-    background-color: gray;
-    transform: rotateY(90deg);
+.front {
+  background-color: gray;
+  transform: rotateY(90deg);
 }
-.flip{
-    transform: rotateY(0deg);
+.flip {
+  transform: rotateY(0deg);
 }
-.quit{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
+.quit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
 }
-button{
-    font-size: 200%;
-    background-color: red;
-    color: white;
-    margin: 10px;
+button {
+  font-size: 200%;
+  background-color: red;
+  color: white;
+  margin: 10px;
 }
-a{
-    color: white;
-    text-decoration: dashed;
+a {
+  color: white;
+  text-decoration: dashed;
+}
+.modal {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+.modal-content {
+  background-color: #fefefe;
+  margin: 15%;
+  border: 2px solid;
+  font-size: 23px;
 }

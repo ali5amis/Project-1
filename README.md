@@ -16,7 +16,7 @@
 
 ### **_Getting Started_**
 
-#### On the page will show 3x4 cards, display score and Reset. catch your fruit on cards but cards is hidden and you should to catch your cards there are 10 cards fruits and 2 cards bomb u should score minimum +5 to next level 2 and the level 2 the same level 1 but there were cards 4x5 there were 16 cards fruits and 4 cards bomb, you should to score +10 to won a game.
+#### On the page will show 3x4 cards, display score and Reset and playagain. catch your fruit on cards but cards is hidden and you should to catch your cards there are 10 cards fruits and 2 cards bomb u should score minimum +5 to won and the level 2 the same level 1 but there were cards 4x5 there were 16 cards fruits and 4 cards bomb, you should to score +8 to won a game.
 
 ---
 
@@ -24,9 +24,11 @@
 
 ##### image header 1
 
+![alt text](image.png)
+
 ##### image header 2
 
----
+## ![alt text](image-1.png)
 
 ### **_Credits_**
 

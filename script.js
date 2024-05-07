@@ -4,6 +4,9 @@ const exit = document.querySelector('.exit')
 const score = document.querySelector('.score')
 const txtscore = document.querySelector('.textscore')
 const restartgame = document.querySelector('.playagain')
+const modal = document.getElementById('myModal')
+const btntips = document.getElementById('tips')
+var span = document.getElementsByClassName('close')[0]
 let scores = 0
 
 function clicksquare() {
@@ -24,9 +27,9 @@ function clicktoshow() {
         scores++
         score.textContent = scores
         if (scores >= 5) {
-            txtscore.textContent = 'You are Won this game ^^'
-            flipAll()
-          }
+          txtscore.textContent = 'You are Won, You can next Level 2'
+          flipAll()
+        }
       } else if (frontid <= 2) {
         scores = 0
         txtscore.textContent = 'You are loser'
@@ -42,12 +45,14 @@ const flipAll = () => {
 }
 
 function quitgame() {
-    window.close()
-  }
+  window.close()
+}
 
-  function playagain() {
-    location.reload()
-  }
+function playagain() {
+  location.reload()
+}
+
+
 
 exit.addEventListener('click', quitgame)
 restartgame.addEventListener('click', playagain)
