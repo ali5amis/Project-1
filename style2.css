@@ -4,6 +4,7 @@ body {
   background-color: cadetblue;
 }
 .scoredisplay {
+  font-family: 'Jaro', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;

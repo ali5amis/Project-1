@@ -4,6 +4,7 @@ body {
   background-color: cadetblue;
 }
 .scoredisplay {
+  font-family: 'Jaro', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,7 +15,7 @@ body {
   margin-bottom: 10px;
   margin-top: 10px;
   background-color: rgb(51, 89, 122);
-  color: rgb(174, 201, 236);
+  color: rgb(135, 211, 211);
 }
 .cards {
   display: grid;
@@ -73,7 +74,7 @@ a {
 }
 .modal-content {
   background-color: #fefefe;
-  margin: 15%; 
+  margin: 15%;
   border: 2px solid;
   font-size: 23px;
 }
