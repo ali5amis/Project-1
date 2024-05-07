@@ -52,7 +52,18 @@ function playagain() {
   location.reload()
 }
 
+btntips.onclick = function () {
+  modal.style.display = 'block'
+}
+span.onclick = function () {
+  modal.style.display = 'none'
+}
 
+window.onclick = function (event) {
+  if (event.target == modal) {
+    modal.style.display = 'none'
+  }
+}
 
 exit.addEventListener('click', quitgame)
 restartgame.addEventListener('click', playagain)
