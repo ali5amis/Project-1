@@ -27,11 +27,13 @@ function clicktoshow() {
         scores++
         score.textContent = scores
         if (scores >= 5) {
+          txtscore.style.background='green'
           txtscore.textContent = 'You are Won, You can next Level 2'
           flipAll()
         }
       } else if (frontid <= 2) {
         scores = 0
+        txtscore.style.background='red'
         txtscore.textContent = 'You are loser'
         flipAll()
       }

@@ -25,9 +25,11 @@
 ##### image header 1
 
 ![alt text](image-3.png)
+
 ##### image header 2
 
 ![alt text](image-2.png)
+
 ### **_Credits_**
 
 ##### Funny Images: [DuckDuckGo Search](http://www.duckduckgo.com)
