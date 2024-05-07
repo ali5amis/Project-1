@@ -24,12 +24,10 @@
 
 ##### image header 1
 
-https://i.postimg.cc/yYd3NHyc/level1.png
-
+![alt text](image-3.png)
 ##### image header 2
 
-https://i.postimg.cc/m25zz5mq/level2.png
-
+![alt text](image-2.png)
 ### **_Credits_**
 
 ##### Funny Images: [DuckDuckGo Search](http://www.duckduckgo.com)
