@@ -4,7 +4,7 @@
 
 ### By: Ali Khamis
 
-#### [GitHub](https://github.com/ali5amis) | [LinkedIn](https://www.linkedin.com/in/3li-jaafar/)
+#### [GitHub](https://github.com/ali5amis) | [LinkedIn](https://www.linkedin.com/in/3li-jaafar/) [Game](my-lovely-game.surge.sh)
 
 ---
 
